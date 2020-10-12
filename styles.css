@@ -2,7 +2,7 @@
 {
 background-image:linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 height: 300px;
-width:800px;
+width:900px;
 margin:auto;
 text-align: center;
 padding-bottom:30px;
@@ -20,7 +20,7 @@ padding-bottom:30px;
 }
 .second-part{
   height: 500px;
-  width:800px;
+  width:900px;
   margin:auto;
   background-color:#f6f5f5;
 }
@@ -46,5 +46,19 @@ padding-bottom:30px;
 }
 .row
 {
-  justify-content: space-around;
+  margin:2% 2%;
+}
+.card{
+  padding:3% 2%;
+}
+.blank-part{
+  height:165px;
+  width:900px;
+  margin:auto;
+}
+.third-part{
+  background-image:linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  height:300px;
+  width:900px;
+  margin:auto;
 }
