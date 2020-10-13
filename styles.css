@@ -61,4 +61,15 @@ padding-bottom:30px;
   height:300px;
   width:900px;
   margin:auto;
+  color:white;
+}
+.forth-part{
+  height:400px;
+  width:900px;
+  margin:auto;
+  background-color:#f6f5f5;
+}
+.cards-images
+{
+  padding:5% 2%;
 }
