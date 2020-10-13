@@ -1,3 +1,7 @@
+body
+{
+  background-color:#555555;
+}
 .main-body
 {
 background-image:linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
@@ -36,13 +40,11 @@ padding-bottom:30px;
 {
   font-size: 20px;
   color:blue;
+  padding:20px;
 }
 .col-lg-4
 {
   padding:3% 2%;
-}
-.icon{
-  padding:20px;
 }
 .row
 {
@@ -75,7 +77,57 @@ padding-bottom:30px;
 }
 .fifth-part
 {
-  height:300px;
+  display: flex;
+  height:200px;
   width:900px;
   margin:auto;
+  text-align:left;
+}
+.course-type
+{
+  text-align:left;
+}
+.institutes-items
+{
+  text-align:left;
+}
+.sixth-part
+{
+  height:100px;
+  width:900px;
+  margin:auto;
+  background-color:#ddd;
+  color:#000;
+  text-align:right;
+}
+.nav-bar2
+{
+  text-align:left;
+  padding:2% 2%;
+
+}
+ul{
+  list-style-type:none;
+}
+li{
+  display:inline;
+}
+a{
+  color:#000;
+  text-decoration:none;
+}
+input[type=text]
+{
+  font-weight: bolder:;
+  height:30px;
+  width:150px;
+}
+.icon-2
+{
+  margin:2% 2%;
+  color:blue;
+}
+.logo
+{
+  text-align: right;
 }
